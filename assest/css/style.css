@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .row .dropitems div .box:first-child{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: red;
+    border: 2px black solid;
+}
+.container .row .dropitems div .box:nth-child(2){
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: yellow;
+    border: 2px black solid;
+}
+.container .row .dropitems div .box:last-child{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: orange;
+    border: 2px black solid;
+}
+.container .row .dropitems div{
+    display: flex;
+    justify-content: space-between;
+}
+.container .row .dropitems h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.container .row .dropzone .bigbox{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: transparent;
+    position: relative;
+    left: 230px;
+    border: 2px black solid;
+}
+.container .row .dropzone h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
